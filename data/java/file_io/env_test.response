@@ -1,0 +1,15 @@
+#this is a comment
+#this is env_test=again
+CONTENTREPOSITORY_HOSTANDPORT=http://10.127.201.45.34608
+NICE=${nice.hostandport:http\://10.127.202.45\:34208}
+NICE_FILTER_OFFERSFOLDER=
+KEYSTOREPASSWORD=changeit
+KEYSTORELOCATION=file"{domain.home}/applications/security/application.keystore
+SERVERINFO_EXPOSEDENVNAME=ebankd8s
+MERCHANT=olb
+MERCHANT_SAMPLE=file
+DOMAIN_HOME=/apps
+FORTRESS_KEY_PATH-=this-path
+RUKES_ENGINE_IP=10.127.202.45
+RULES_ENGINE_PORT_=5300
+RULES_ENGINE_TEST=test
