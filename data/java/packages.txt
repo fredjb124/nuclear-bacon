@@ -1,0 +1,27 @@
+using dir structure as below;
+C:\data\java\pack_a
+
+In java dir above there is Chap_1 class that refers to an object (Pack_a) in dir pack_a;
+The Chap_1 class needs to have the below as far as an import notation goes;
+import pack_a.*; and can then refer to the variable as below
+System.out.println("In Chap_1_class...pack_a = "+Pack_a.pack_a_str);
+
+The Pack_a class must have the below in the file
+package pack_a; in order to be referred to in the above manner;
+
+So when you run Chap_1 from data\java 
+Chap_1 will work fine; If you want to run Pack_a from data\java
+you will need to enter java pack_a/Pack_a (note the "wrong" slash for windows);
+
+If you want to run Pack_a from data\java\pack_a run
+java pack_a/Pack_a
+
+Indeed you can run the above from anywhere as long as you can find java in the PATH var;
+Try it from data\java\pack_a\pack_b;
+
+Could run from Apple.cmd as below;
+@ECHO OFF
+java food/fruit/apple/Apple
+or
+java C:data.java.food.fruit.apple.Apple
+---------

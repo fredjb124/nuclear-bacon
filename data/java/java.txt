@@ -1,0 +1,61 @@
+types and sizes
+boolean: This data type is used to represent a binary condition: true or false. 
+	So, at Java level, its size is 1 bit. 
+	The bit turned on represents true, and off represents false.
+
+byte: This type is an 8-bit, signed, two's complement integer. 
+     Therefore, the range of values it can support is 
+     27 to 27 -1 (i.e. -128 to 127).
+
+short: This type is a 16-bit, signed, two's complement integer. 
+     Therefore, the range of values it can support is 
+     -215 to 215 - 1 (-32,768 to 32,767).
+
+char: This type is a 16-bit, unsigned integer that is used to represent keyboard characters.
+	Remember that a variable of this type never holds a negative value. 
+	Therefore, the range of values it can support is 
+	0 to 216 - 1 (0 to 65,535).
+	
+int: This type is a 32-bit, signed, two's complement integer. Consequently, 
+    the range of values it can support is 
+    -231 to 231 - 1 (-2,147,483,648 to 2,147,483,647). 
+    This is the default type in the integer arithmetic-that is, 
+    the arithmetic manipulations of integers that specifically 
+    could be represented by byte, short, or int.
+    
+long: This type is a 64-bit, signed, two's complement integer. 
+    Consequently, the range of values it can support is 
+    -263 to 263 - 1 (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807).
+    
+float: The variable of type float can hold a 32-bit, signed floating-point number. 
+    The range of values it can support is 
+    +/-3.40282347exp38.
+
+double: A variable of type double can hold a 64-bit, signed floating-point number. 
+	The range of values it can support is 
+	+/-1.79769313486231570exp308.
+
+bbscilfd
+
+ªNote All the numeric types (i.e. all the primitive types except boolean and char) are signed
+
+bool t/f
+byte -2exp7 -1 -> 2exp7 -1       (i.e. -128 to 127)
+short -2exp15 -1 -> 2exp15 -1    (-32,768 to 32,767)
+char 0  -2exp16 -1               (0 to 65,535)
+int     -2exp31 -1 ->  2exp31 -1 (-2,147,483,648 to 2,147,483,647)
+long    -2exp63 -1 ->  2exp63 -1 (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+float   +/-3.40282347exp38
+double  +/-1.79769313486231570exp308
+
+bbscilfd
+
+boolean t/f
+byte -2exp7 -1 -> 2exp7 -1      -127 -> 128
+short -2exp15 -1 -> 2exp15 -1   -32657 32658
+char 0 - 64327
+int -2exp31 -1 -> 2exp31 -1      
+long -2exp63 -1 -> 2exp63 -1     
+float  3.4exp38
+double 1.7exp308
+-----------
